@@ -10,7 +10,7 @@ public abstract class AbstractClickPage {
         System.out.println("Clicked 2");
     }
 
-    protected void input(String test) {
-    System.out.println("Clicked 2");
+    protected void click3(String test) {
+    System.out.println("Clicked 3");
     }
 }
