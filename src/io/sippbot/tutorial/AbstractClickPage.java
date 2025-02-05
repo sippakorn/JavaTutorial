@@ -5,4 +5,8 @@ public abstract class AbstractClickPage implements ClickablePageInterface {
     public void click() {
         System.out.println("Clicked");
     }
+
+    protected void click2() {
+        System.out.println("Clicked 2");
+    }
 }
