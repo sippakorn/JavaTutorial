@@ -1,7 +1,6 @@
 package io.sippbot.tutorial;
 
 public abstract class AbstractClickPage {
-    @Override
     public void click() {
         System.out.println("Clicked");
     }
@@ -11,6 +10,6 @@ public abstract class AbstractClickPage {
     }
 
     protected void click3(String test) {
-    System.out.println("Clicked 3");
+    System.out.println("Clicked 3" + test);
     }
 }

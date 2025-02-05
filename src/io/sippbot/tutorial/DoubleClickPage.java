@@ -10,8 +10,12 @@ public class DoubleClickPage extends AbstractClickPage {
         System.out.println("double click2");
     }
 
-     @Override
-    protected void click3(String text1, String... text2) {
+    @Override
+    protected void click3(String text1) {
         System.out.println("double click3");
+    }
+
+    protected void click3(String text1, String... text2) {
+        System.out.println("double click3 - " + text1);
     }
 }
